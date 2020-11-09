@@ -1,3 +1,13 @@
 #!/usr/bin/sh
 
+<<<<<<< HEAD
 sudo python3 manage.py runserver 0.0.0.0:80
+=======
+if [ $1 = "dev" ]; then
+    python3 manage.py runserver
+fi
+
+if [ $1 = "release" ]; then
+    sudo python3 manage.py runserver 0.0.0.0:80
+fi
+>>>>>>> dev
