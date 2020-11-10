@@ -18,6 +18,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
+    # root page
     path('', views.index, name='index'),
     path('gitpull', views.gitpull, name='gitpull')
 ]

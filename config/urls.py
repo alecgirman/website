@@ -17,6 +17,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    # link admin page to django.contrib.admin
     path('admin/', admin.site.urls),
+
+    # include all urls in base app
     path('', include('base.urls'))
 ]
