@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+ssh -i ~/alecgio.pem ubuntu@54.160.7.163
