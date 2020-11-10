@@ -7,7 +7,3 @@ from os import system
 
 def index(request):
     return HttpResponse('<h1>HTTP 200 Everything works!</h1>')
-
-def gitpull(request):
-    system('echo git pull')
-    return HttpResponse('<h1>Tried git pull...</h1>')
